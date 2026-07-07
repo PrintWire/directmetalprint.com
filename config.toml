@@ -1,0 +1,16 @@
+baseURL = "https://directmetalprint.com/"
+languageCode = "en-us"
+title = "DIRECTMETALPRINT"
+
+[params]
+  description = "Metal additive manufacturing news, research, and services. DMLS, SLM, EBM coverage for aerospace, medical, and industrial applications."
+  siteName = "DIRECTMETALPRINT"
+  tagline = "The authoritative source for metal additive manufacturing news"
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
